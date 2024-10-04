@@ -1,7 +1,170 @@
 <!DOCTYPE html>
-<html>
-    <body>
-        <h1>Hello World</h1>
-        <p>I'm hosted with Github Pages.</p>
-    </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Game Development Portfolio showcasing SFW and 18+ projects.">
+    <title>Game Development Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f2f5;
+            color: #333;
+        }
+
+        header {
+            background-color: #282c34;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.5em;
+        }
+
+        .container {
+            width: 700px;
+            max-width: 1200px;
+            margin: 40px auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .section {
+            width: 100%;
+            margin-bottom: 40px;
+            text-align: center;
+        }
+
+        .section h2 {
+            font-size: 1.8em;
+            margin-bottom: 10px;
+            color: #1a73e8;
+        }
+
+        .card {
+            background-color: #ddd;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            margin-bottom: 20px;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        .card-content {
+            padding: 20px;
+            text-align: center;
+            justify-content: center;
+        }
+
+        .card h3 {
+            font-size: 1.6em;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .card p {
+            font-size: 1em;
+            color: #666;
+        }
+
+        .card a {
+            color: #1a73e8;
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-block;
+            margin-top: 15px;
+        }
+
+        .card a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #282c34;
+            color: #fff;
+            margin-top: 50px;
+        }
+
+        footer p {
+            font-size: 0.9em;
+        }
+
+        @media (max-width: 1200px) {
+            .container {
+                flex-direction: column;
+                gap: 20px;
+            }
+
+            .card {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Game Development Portfolio</h1>
+</header>
+
+<div class="container">
+    <!-- SFW Projects Section -->
+    <div class="section">
+        <h2>SFW Projects</h2>
+        <div class="card">
+            <div class="card-content">
+                <iframe height="167" frameborder="0" src="https://itch.io/embed/2907431" width="552"><a href="https://reyjakai.itch.io/keep-on-truckin">Keep On Trucking! by Reyjakai</a></iframe>
+                <a href="https://github.com/reyjakai/keep-on-truckin" target="_blank">View Code on GitHub</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- 18+ Projects Section -->
+    <div class="section">
+        <h2>18+ Projects</h2>
+        
+        <div class="card">
+            <div class="card-content">
+                <iframe src="https://store.steampowered.com/widget/1079290/" frameborder="0" width="646" height="190"></iframe>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-content">
+                <iframe src="https://store.steampowered.com/widget/791020/" frameborder="0" width="646" height="190"></iframe>
+                <p>Our first project made with RPG Maker.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-content">
+                <iframe src="https://store.steampowered.com/widget/1039290/" frameborder="0" width="646" height="190"></iframe>
+                <p>Our second project made with RPG Maker.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2024 DP3 Softworks - All Rights Reserved</p>
+</footer>
+
+</body>
 </html>
