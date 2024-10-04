@@ -12,6 +12,7 @@ This section includes projects that are suitable for all audiences.
 This section includes projects intended for mature audiences.
 
 1. **Lust For Lucre**
+   - An adult, fantasy-themed match 3 dating sim / dungeon crawler built in Godot.
    - Demo will be available on [Steam](https://store.steampowered.com/app/1079290) shortly.
 
 2. **Drumpf: Rise Up, Libertonia!**
